@@ -1,4 +1,4 @@
-const endDate="1 january 2024 05:15 PM";
+const endDate=prompt("Enter Date And Time")
 document.getElementById("end-date").innerText=endDate;
 const inputs = document.querySelectorAll("input")
 function clock() {
